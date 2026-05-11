@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Adirealsharma/Practical.git'
+                git branch: 'main', url: 'https://github.com/Adirealsharma/Practical_exam.git'
             }
         }
 
