@@ -29,7 +29,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                bat 'docker run -d -p 8081:80 cicd-demo'
+                bat 'docker run -d -p 9091:90 cicd-demo'
             }
         }
     }
